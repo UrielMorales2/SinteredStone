@@ -27,6 +27,7 @@ body{
 .logoImgS{
     width: 100%;
     height: 100% ;
+    display: block;
 }
 
 img{
@@ -313,7 +314,7 @@ h1, h2, h3, h4, h5, h6{
 
 
 /*--------------------Estilos Responsive----------------*/
-@media screen and (min-width:480px){
+@media screen and (min-width:200px){
     .logo{
         color: white
     }
@@ -355,6 +356,9 @@ h1, h2, h3, h4, h5, h6{
         margin: 0;
     }
     
+    .menu{
+        background: rgba(0,0,0,2);
+    }
     
     .today-special .column{
         border: 5px solid #ddd;
@@ -378,6 +382,9 @@ h1, h2, h3, h4, h5, h6{
     
     .column--33{
         width: 30%;
+    }
+    .logoImgS{
+        display: none;
     }
 }
 
@@ -418,6 +425,7 @@ h1, h2, h3, h4, h5, h6{
         margin-top: -186px;
         position: relative;   
     }
+   
 }
 
 @media screen and (min-width:1024px){
@@ -435,9 +443,10 @@ h1, h2, h3, h4, h5, h6{
     
     .main-nav{
         padding: 0;
+        background: rgba(0,0,0,0.5);
     }
 
-    
+   
     .banner__img{
         height: 1000px;
     }
@@ -478,9 +487,24 @@ h1, h2, h3, h4, h5, h6{
         padding-top: 30px;
         padding-bottom: 30px;
     }
+    .menu{
+        background: rgba(255, 0, 0, 0);
+    }
     .logoImgS{
         width: 50%;
         height: 100%;
+        display: block;
+    }
+    .containerVideo{
+        background-image: url(fondo.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-attachment: fixed; */
+        /* width: 346px;
+        height: 151px; */
+        text-align: center;
+        margin: 5% auto;
     }
 }
 
@@ -515,6 +539,7 @@ h1, h2, h3, h4, h5, h6{
     .logoImgS{
         width: 50%;
         height: 100%;
+        display: block;
     }
     .banner__img_nosotros{
     width: 100%;
