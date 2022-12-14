@@ -193,7 +193,8 @@ h1, h2, h3, h4, h5, h6{
 /*---------------------estilos principales---------------*/
 
 .group--color .container{
-    background: #EFECE2;
+    /* background: #EFECE2; */
+    background: #531d4f;
     color: BLACK;
     padding: 10px;
     text-align: center;
@@ -201,8 +202,12 @@ h1, h2, h3, h4, h5, h6{
 .main__title{
     margin: 15px 0;
     font-size: 1.8em;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     font-weight: 100;
+    color: #fff;
+}
+.main__txt{
+    color: #fff;
 }
 
 .column__title{
@@ -238,15 +243,15 @@ h1, h2, h3, h4, h5, h6{
     text-align: center;
     text-decoration: none;
     width: 120px;
-    background: #531d4f7c;
+    background: #531d4ff3;
     color: white;
     padding: 10px;
     margin: 10px auto;
-    border-radius: 15%;
+    border-radius: 5%;
 }
 
 .group__title{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
     text-align: center;
     font-weight: 100;
     font-size: 1.9em;
@@ -268,13 +273,13 @@ h1, h2, h3, h4, h5, h6{
 .today-special__title{
     font-size: 1.3em;
     padding-top: 10px;
-    color: #531d4f9a;
+    color: #531d4fbe;
     padding-bottom: 20px;
 }
 
 .today-special__price{
     font-size: 1.5em;
-    color: #531d4f7c;
+    color: #531d4f9f;
     font-weight: bold;
 }
 
@@ -469,6 +474,7 @@ h1, h2, h3, h4, h5, h6{
         margin-top: 30px;
         margin-bottom: 30px;
         padding: 20px;
+        /* width: 100%; */
     }
     .main__title{
         font-size: 2.5em;
