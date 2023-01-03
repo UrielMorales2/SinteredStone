@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cssCalculadora/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/cedfbf939d.js" crossorigin="anonymous"></script>
+</head>
+<body style="background-image: url('img/galeria/SECUENCIA_FACIALl.jpg'); background-size: cover; background-attachment: fixed;">
+    <nav class="main-nav">
+        <div class="container container--flex">
+            <span class="icon-menu" id="btnmenu"></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item"><a><img src="img/logo.png" class="logoImgS" alt=""></a></li>
+                <li class="menu__item"><a href="index.html" class="menu__link menu__link--select">INICIO</a></li>
+                <li class="menu__item"><a href="nosotros.html" class="menu__link">NOSOTROS</a></li>
+                 <li class="menu__item submenu"><a href="paquet.html"    class="menu__link ">PRODUCTOS</a> </li>
+                <!-- <li class="menu__item submenu"><a href="galeria.html" class="menu__link ">GALERIA</a> </li> -->
+                <li class="menu__item"><a href="contacto.html" class="menu__link">CONTACTO</a></li>
+            </ul>
+            <div class="social-icon">
+            <!--               
+                <a href="https://www.instagram.com/sinteredstone_/" target="_blank" class="social-icon__link"><i class="fa-brands fa-facebook"></i></i></a>
+                <a href="https://www.instagram.com/sinteredstone_/" target="_blank" class="social-icon__link instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.instagram.com/sinteredstone_/" target="_blank" class="social-icon__link"><i class="fa-brands fa-tiktok"></i></a>
+               <a href="https://www.instagram.com/sinteredstone_/" target="_blank" class="social-icon__link"><img src="img/galeria/tik-tok.png" alt=""></a> -->
+                
+            </div>
+        </div>
+    </nav>
+   <br><br><br><br>
+    <div class="contenedorPrincipal">
+        <main class="">
+            <section class="">
+                <div class="titulo">
+                    <h2 class="">COMIENZA A DISEÑAR TUS SUEÑOS</h2>
+                </div>
+            </section>
+        </main>
+        <main>
+            <div id="ocultar">
+                <form action="" class="formulario" id="formulario">
+                    <div class="formulario__grupo" id="grupo__correo">
+                        <label for="correo" class="formulario__label">Medida de la placa</label>
+                        <div class="formulario__grupo-input">
+                            <select name="select" id="numero1" class="formulario__input">
+                                <!-- <option value="0">Seleccione Medida de la placa</option> -->
+                                <option value="5.12">1.60 x 3.20 x 0.12</option>
+                                <option value="10" >LITRO</option>
+                                <option value="2">PIEZA</option>
+                            </select>
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                            <h6>Elige tu formato ideal.</h6>
+                        </div>
+                        <!-- <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p> -->
+                    </div>
+                    <div class="formulario__grupo" id="grupo__nombre">
+                        <label for="nombre" class="formulario__label">Área en M2</label>
+                        <div class="formulario__grupo-input">
+                            <input type="number" class="formulario__input" id="numero2" placeholder="Ingrese el área en M2 que quiere cubrir" >
+                            <i class="formulario__validacion-estado fas fa-times-circle"></i><br>
+                            <h6>Elige el área que ocupará tu proyecto</h6>
+                        </div>
+                        <p class="formulario__input-error">INGRESE EL PRECIO UNITARIO CORRECTO.</p>
+                    </div>		
+                    <div class="formulario__mensaje" id="formulario__mensaje">
+                        <p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+                    </div>
+                    <div  class="formulario__grupo">
+                        <label for="nombre" class="formulario__label">Número de placas para tu proyecto</label>
+                        <input type="text" class="formulario__input" id="resultado2" disabled>
+                    </div>
+                    <div class="formulario__grupo">
+                        <label for="nombre" class="formulario__label">Área cubierta en M2</label><br>
+                        <input type="text" class="formulario__input" id="resultado" disabled>
+                    </div>
+                </form>
+            </div>
+            <br><br>
+           
+            <!-- <input type="text" id="resultado"> -->
+            <a href="https://api.whatsapp.com/send?phone=951304613"class="icon-whatsapp" target="_blank">
+                <!-- <!-- <img src="img/galeria/whatsapp.svg" class="icon-whats" alt=""> -->
+                <i class="fa-brands fa-whatsapp"></i>
+             </a>
+         
+             <div class="socual_bar">
+                 <a href="https://www.facebook.com/sinteredst" target="_blank" id="social_bar_icon"  class="fa fa-face fa-brands fa-facebook fa"></a>
+                 <a href="https://www.instagram.com/sinteredstone_/" target="_blank"  id="social_bar_icon" class="fa fa-insta fa-brands fa-instagram"></a>
+                 <a href="https://www.tiktok.com/@sinteredstone_" target="_blank" id="social_bar_icon"  class="fa fa-tiktok fa-brands fa-tiktok"></a>
+                 <a href="https://www.youtube.com/channel/UCrx47WbxsJD-aEtaAguCPng" target="_blank"  id="social_bar_icon" class="fa fa-youtube fa-brands fa-youtube"></a>
+             </div>
+        </main>
+    </div>
+    <!-- <footer class="main-footer calculadora">
+        <div class="container container--flex">
+            
+            <div class="column column--33">
+               <h2 class="column__title">Contactanos</h2>
+              <p class="column__txt" >Avenida Rafael Cortés No. 728, Col. Centro, C.P 75240 Tecali de Herrera, Puebla </p> 
+               <p class="column__txt">Telefono: (+52) 951 109 8256 </p> 
+               <p class="column__txt">E-mail: comercial@sinteredstone.com.mx</p> 
+            </div>
+            <div class="column column--33">
+                <h2 class="column__title"></h2>
+                <p class="column__txt"></p> 
+             </div>
+            <div class="column column--33">
+                <h2 class="column__title">Siguenos en nuestras redes Sociales</h2>
+                <p class="column__txt"><a href="https://www.facebook.com/sinteredst" target="_blank" class="icon-facebook">Sintered Stone</a></p>
+                <p class="column__txt"><a href="https://www.instagram.com/sinteredstone_/" target="_blank" class="icon-instagram">sinteredstone_</a></p>
+                
+            </div>
+            <p class="copy">©2022 Sintered Stone by WMD México</p>
+        </div>
+    </footer> -->
+   
+   
+    <script src="jsCalculadora/formulario.js"></script>
+</body>
+</html>

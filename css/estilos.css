@@ -393,6 +393,13 @@ h1, h2, h3, h4, h5, h6{
 
 /*------------------------Estilos del footer---------------*/
 
+.calculadora {
+    /* position: fixed; Asigna una posición fija al foote */
+    bottom: 0; /* Ajusta el footer al fondo de la pantalla */
+    width: 100%; /* Ajusta el footer al ancho de la pantalla */
+    z-index: 1000;
+  }
+  
 .main-footer{
     background: #222;
     color: white;
