@@ -241,7 +241,7 @@ h1, h2, h3, h4, h5, h6{
     margin: 0;
     list-style: none;
     text-align: center;
-    height: 0;
+    height: 250px;
     overflow: hidden;
     transition: height .3s linear;
 }

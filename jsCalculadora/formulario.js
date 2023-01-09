@@ -4,11 +4,13 @@
  const resultado = document.getElementById('resultado');
  const resultado2 = document.getElementById('resultado2');
  const resultado3 = document.getElementById('resultado3');
+ const resultado4 = document.getElementById('resultado4');
 
 let tamanoLoza = 0; 
 let area = 0;
 let res = 0;
 let res2 = 0;
+let res3 = 0;
 
  // Agregar un manejador de evento para el evento input de los elementos de entrada
  numero1.addEventListener('input', calcularResultado);
@@ -29,7 +31,9 @@ let res2 = 0;
     // Actualizar el valor del elemento de resultado
     resultado2.value = Math.ceil(res) ;
    
-     res2 = (resultado2.value * tamanoLoza);
+    res2 = (resultado2.value * tamanoLoza);
+    res3 = (res2 - area);
     resultado.value = res2  + " M2";
     resultado3.value = ("*Comunicate con nustros asesores de ventas para continuar con tu proyecto");
+    resultado4.value = res3  + " M2";
  }
